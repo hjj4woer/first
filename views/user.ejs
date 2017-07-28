@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<h1>Hello <%= user%></h1>
+<% for(var i in re) {%>
+    <li><%= re[i].blog_name %></li>
+    <li><%= re[i].blog_text %></li>
+<% } %>
+<form method="post">
+    <input type="submit" value="发表文章">
+</form>
+</body>
+</html>

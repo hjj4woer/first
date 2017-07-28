@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<h1>Hello <%= user%></h1>
+<h1><%= title%></h1>
+<form method="post">
+    Blog name:<br>
+    <input type="text" name="blog_name">
+    <br>
+    Blog:<br>
+    <textarea name="blog_text" rows="10" cols="100"></textarea>
+    <br>
+    <input type="submit" value="发表" >
+    <a href="/user">返回</a>
+</form>
+</body>
+</html>

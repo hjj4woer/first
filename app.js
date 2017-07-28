@@ -58,8 +58,9 @@ function  checkLogin(req, res, next) {
 app.use('/', routes);
 app.use('/users', users);
 app.use('/reg', require('./routes/reg'));
-/*
+app.use('/post', require('./routes/post'));
 app.use('/login', require('./routes/login'));
+/*
 app.use('/logout', require('./routes/logout'));
 app.use('/language', require('./routes/language'));
 app.use('/post', require('./routes/post'));
